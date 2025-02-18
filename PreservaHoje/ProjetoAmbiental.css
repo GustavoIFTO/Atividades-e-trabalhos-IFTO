@@ -1,0 +1,145 @@
+#body-home {
+    background-color: #cfcf95; /* Define a cor de fundo da página */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família da fonte do conteúdo */
+    margin: 0; /* Remove as margens padrão da página */
+    padding: 0; /* Remove o espaçamento interno padrão da página */
+}
+
+header .botao-login {
+    position: absolute; /* Posiciona o botão de login de forma absoluta dentro do header */
+    top: 10px; /* Define a distância do topo de 10px */
+    right: 10px; /* Define a distância da direita de 10px */
+    background-color: #bbba77; /* Define a cor de fundo do botão */
+    color: black; /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    padding: 10px 20px; /* Adiciona espaçamento interno ao botão */
+    border-radius: 8px; /* Arredonda os cantos do botão */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: background-color 0.3s; /* Adiciona transição suave na mudança da cor de fundo */
+}
+
+/* Cabeçalho */
+header h1 {
+    text-align: center; /* Centraliza o texto do título h1 */
+    color: black; /* Define a cor do texto */
+    margin-top: 10px; /* Adiciona um espaçamento superior */
+}
+
+.botao-voltar:hover {
+    background-color: #1a6e1a; /* Muda a cor do botão ao passar o mouse */
+}
+
+.button-css {
+    background-color: #bbba77; /* Cor de fundo do botão */
+    color: black; /* Cor do texto */
+    border: none; /* Remove a borda */
+    width: 100%; /* Faz o botão ocupar toda a largura */
+    padding: 15px; /* Adiciona espaçamento interno */
+    font-size: 15px; /* Define o tamanho da fonte */
+    cursor: pointer; /* Altera o cursor para ponteiro ao passar sobre o botão */
+}
+
+button:hover {
+    background-color: navajowhite; /* Altera a cor de fundo de botões ao passar o mouse */
+}
+
+h1, h2, h3 {
+    text-align: center; /* Centraliza os títulos h1, h2 e h3 */
+    color: black; /* Define a cor dos títulos */
+}
+
+#inicio p {
+    text-align: center; /* Centraliza os parágrafos dentro da seção de ID inicio */
+}
+
+.navbar {
+    background-color: #bbba77; /* Define a cor de fundo da barra de navegação */
+    padding: 10px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo da barra */
+}
+
+.navbar a {
+    margin: 0 15px; /* Adiciona margens laterais aos links */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Deixa o texto em negrito */
+    color: black; /* Define a cor do texto */
+}
+
+.section {
+    margin: 30px; /* Adiciona margem externa */
+    padding: 20px; /* Adiciona espaçamento interno */
+    background-color: #f0f0d8; /* Define cor de fundo */
+    border-radius: 8px; /* Arredonda os cantos */
+}
+
+.section p, .section li {
+    font-size: 16px; /* Define o tamanho da fonte */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+}
+
+.section h3 {
+    font-size: 20px; /* Define o tamanho do título h3 */
+}
+
+.container-plantas {
+    display: flex; /* Exibe os elementos em flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha */
+    justify-content: center; /* Centraliza os itens */
+}
+
+.planta {
+    margin: 15px; /* Adiciona margem externa */
+    text-align: center; /* Centraliza o conteúdo */
+    max-width: 300px; /* Define a largura máxima */
+}
+
+.planta img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Arredonda os cantos */
+}
+
+.button-css {
+    display: block; /* Faz o botão ocupar uma linha inteira */
+    text-align: center; /* Centraliza o texto */
+    margin: 20px auto; /* Centraliza o botão e adiciona margem superior e inferior */
+    background-color: #228b22; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s ease; /* Transição suave */
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+}
+
+.botao-voltar-topo:hover {
+    background-color: #1a6e1a; /* Muda a cor de fundo ao passar o mouse */
+}
+
+.botao-fale-conosco {
+    display: inline-block; /* Exibe o botão como bloco em linha */
+    background-color: #228b22; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 12px 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s ease, transform 0.2s; /* Efeito suave de mudança de cor e transformação */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+.botao-fale-conosco:hover {
+    background-color: #1a6e1a; /* Muda a cor ao passar o mouse */
+}
+
+footer {
+    background-color: #bbba77; /* Cor de fundo do rodapé */
+    color: rgb(2, 1, 1); /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+}

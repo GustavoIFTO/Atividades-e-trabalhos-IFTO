@@ -1,0 +1,53 @@
+.tela-login{
+    font-family: Arial, Helvetica, sans-serif; /* Define a família da fonte */
+    background-color: rgba(34, 139, 34, 0.6); /* Define a cor de fundo semi-transparente */
+    position: absolute; /* Posiciona a tela de login de forma absoluta */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para o centro exato */
+    padding: 80px; /* Adiciona espaçamento interno */
+    border-radius: 15px; /* Arredonda os cantos */
+    color: #f0f0d8; /* Define a cor do texto */
+}
+
+.body-cadastro-login{
+    background-image: linear-gradient(45deg,#f0f0d8, #228b22); /* Cria um fundo em gradiente */
+}
+
+.button-css {
+    display: block; /* Exibe o botão como bloco */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    margin: 20px auto; /* Centraliza o botão e adiciona espaçamento superior e inferior */
+    background-color: #228b22; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 10px 20px; /* Adiciona espaçamento interno */
+    border-radius: 8px; /* Arredonda os cantos */
+    font-size: 16px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: background-color 0.3s ease; /* Adiciona um efeito suave na mudança de cor */
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+}
+
+.inputs{
+    padding: 15px; /* Adiciona espaçamento interno */
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno padrão ao focar */
+    font-size: 15px; /* Define o tamanho da fonte */
+}
+
+.inputs-cadastro{
+    padding: 5px; /* Adiciona espaçamento interno */
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno padrão ao focar */
+    font-size: 15px; /* Define o tamanho da fonte */
+    border-radius: 10px; /* Arredonda os cantos */
+}
+
+.inputs-cadastro:focus{
+    background-color: #f0f0d8; /* Muda a cor de fundo ao focar no campo */
+}
+
+.inputs:focus{
+    background-color: #f0f0d8; /* Muda a cor de fundo ao focar no campo */
+}
