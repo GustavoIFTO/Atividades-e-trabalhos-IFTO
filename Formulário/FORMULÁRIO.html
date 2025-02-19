@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="Form.css">
+
+</head>
+<body class="body-cadastro-login">
+    <div class="tela-cadastro">
+        <h1 class="God">Formulário de Cadastro</h1>
+        <form>
+            <label for="name"><strong>Nome completo:</strong></label><br>
+            <input class="inputs-cadastro" id="name" name="name" required>         
+            <br><br>
+
+            <label for="email"><strong>Email:</strong></label><br>
+            <input class="inputs-cadastro" type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="senha"><strong>Senha:</strong></label><br>
+            <input class="inputs-cadastro" type="password" id="senha" name="senha" required>
+            <br><br>
+
+            <label for="datanascimento"><strong>Data de nascimento:</strong></label><br>
+            <input class="inputs-cadastro" type="date" id="datanascimento" name="datanascimento" required>
+            <br><br>
+
+            <p><strong>Sexo:</strong></p>
+            <input type="radio" id="masculino" name="sexo" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <br>
+            <input type="radio" id="feminino" name="sexo" value="feminino" required>
+            <label for="feminino">Feminino</label>
+            <br>
+            <input type="radio" id="outro" name="sexo" value="outro" required>
+            <label for="outro">Outro</label>
+            <br><br>
+
+            <label for="telefone"><strong>Telefone:</strong></label><br>
+            <input class="inputs-cadastro" type="tel" id="telefone" name="telefone">
+            <br><br>
+
+            <label for="endereco"><strong>Endereço:</strong></label><br>
+            <input class="inputs-cadastro" type="text" id="endereco" name="endereco">
+            <br><br>
+
+            <button class="button-css" type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
