@@ -1,0 +1,51 @@
+.body-cadastro-login{
+    background-image: linear-gradient(50deg,#e7cb6e, #29228b);
+}
+
+.tela-cadastro{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(34, 50, 139, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #f0f0d8;
+}
+
+.God{
+    color: #f0f0d8;
+    text-align: center;
+}
+
+.inputs-cadastro{
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    
+}
+
+.inputs-cadastro:focus{
+    background-color: #f0f0d8;
+}
+
+.inputs:focus{
+    background-color: #f0f0d8;
+}
+
+.button-css{
+    background-color: #bbba77;
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: navajowhite;
+}
