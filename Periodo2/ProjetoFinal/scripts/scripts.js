@@ -15,11 +15,11 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
 
         if (email === 'aluno@gmail.com' && senha == '123' ){
-            window.location.href = '/Periodo2/ProjetoFinal/index/home.html'
+            window.location.href = '/Periodo2/ProjetoFinal/paginas/home.html'
         }
 
         else if (email === 'admin@gmail.com' && senha == '321'){
-            window.location = '/Periodo2/ProjetoFinal/index/admin.html'
+            window.location = '/Periodo2/ProjetoFinal/paginas/admin.html'
         }
 
         else {
