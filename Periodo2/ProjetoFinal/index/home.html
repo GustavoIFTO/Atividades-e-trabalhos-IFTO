@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chopin Conservatory</title>
+    <link rel="stylesheet" href="/Periodo2/ProjetoFinal/css/home.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="" alt="Logo">
+            </div>
+
+            <nav class="menu-nav">
+                <a href="#agenda">Agenda</a>
+                <a href="#avisos">Avisos</a>
+                <a href="#repertório">Repertório</a>
+            </nav>
+        </header>
+
+        <main class="main-principal">
+            <section class="secao" id="agenda">
+                <h2>Agenda de Eventos</h2>
+
+                <div class="calendario-container">
+                    <div id="calendario"></div>
+                </div>
+
+                <div class="detalhes" id="detalhes-evento">
+                    <h3>Detalhes do Evento</h3>
+                    <p id="data-evento">Data:</p>
+                    <p id="horario-evento">Horário:</p>
+                    <p id="local-evento">Local:</p>
+                    <p id="descricao-evento">Descrição:</p>
+                </div>
+            </section>
+
+            <section class="secao" id="avisos">
+                <h2>Mural de avisos</h2>
+                <div class="mural-conteudo"></div>
+            </section>
+
+            <section class="secao" id="repertorio">
+                <h2>Repertório</h2>
+
+                <div class="busca-repertorio">
+                    <input type="text" id="filtro-musical" placeholder="Buscar música">
+                </div>
+
+                <ul id="lista-repertorio">
+                    <li>
+                        <button class="play" data-src="/Periodo2/ProjetoFinal/audios/Flor de Lis [v.3].mp3">></button>
+                        <a href="/Periodo2/ProjetoFinal/musicas/Grade e Partes.pdf" download="Flor de Lis - Djavan">Flor de Lis - Djavan</a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="/Periodo2/ProjetoFinal/audios/september.mp3">></button>
+                        <a href="/Periodo2/ProjetoFinal/musicas/September.pdf" download="September - Earth, Wind & Fire">September - Earth, Wind & Fire"</a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="/Periodo2/ProjetoFinal/audios/It´s she lovely.mp3">></button>
+                        <a href="/Periodo2/ProjetoFinal/musicas/It´s she lovely.pdf" download="It´s she lovely">It´s she lovely</a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="">></button>
+                        <a href="" download=""></a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="">></button>
+                        <a href="" download=""></a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="">></button>
+                        <a href="" download=""></a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="">></button>
+                        <a href="" download=""></a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="">></button>
+                        <a href="" download=""></a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="">></button>
+                        <a href="" download=""></a>
+                    </li>
+                    <li>
+                        <button class="play" data-src="">></button>
+                        <a href="" download=""></a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+        <footer class="rodape">
+            <p>&copy; 2025 Chopin Conservatory. Todos os direitos reservados.</p>
+        </footer>
+
+    <script src="/Periodo2/ProjetoFinal/scripts/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1A233A;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #333333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Cabeçalho e menu */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3D4047;
+    color: white;
+}
+
+.menu-nav a {
+    color: #C8A96C;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.menu-nav a:hover {
+    background-color: #C8A96C;
+    color: #1A233A;
+    border-radius: 5px;
+}
+
+/* Conteúdo Principal */
+.main-principal {
+    padding: 20px;
+}
+
+.secao {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #3D4047;
+    border-radius: 10px;
+}
+
+.secao h2 {
+    color: #C8A96C;
+    border-bottom: 2px solid #C8A96C;
+    padding-bottom: 10px;
+}
+
+
+#calendario {
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.dia {
+    text-align: center;
+    padding: 10px;
+    background-color: #1A233A;
+    color: #C8A96C;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dia.com-evento {
+    background-color: #C8A96C;
+    color: white;
+    font-weight: bold;
+}
+
+.dia.selecionado {
+    border: 2px solid #1A233A
+}
+
+.detalhes {
+    padding: 15px;
+    border-top: 1px solid #C8A96C;
+    color: #fff;
+}
+
+.mural-conteudo ul {
+    color: #fff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.busca-repertorio input{
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+
+.busca-repertorio {
+    margin-bottom: 20px;
+}
+
+.play {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#lista-repertorio {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lista-repertorio li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #C8A96C;
+}
+
+#lista-repertorio li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 15px;
+    background-color: #1A233A;
+}

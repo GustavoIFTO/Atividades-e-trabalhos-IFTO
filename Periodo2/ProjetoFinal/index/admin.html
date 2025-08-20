@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chopin Conservatory</title>
+    <link rel="stylesheet" href="/Periodo2/ProjetoFinal/css/admin.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="" alt="logo">
+                </div>
+            <nav class="menu-nav">
+                <a href="/Periodo2/ProjetoFinal/index/home.html">Voltar para home</a>
+            </nav>    
+        </header>
+
+        <main class="main-principal">
+            <section class="secao" id="admin-agenda">
+                <h2>Adicionar Evento à Agenda</h2>
+                <form id="form-evento">
+                    <div class="form-grupo">
+                        <label for="evento-data">Data:</label>
+                        <input type="date" id="evento-data" name="evento-data" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="evento-horario">Horário:</label>
+                        <input type="time" id="evento-horario" name="evento-horario" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="evento-local">Local:</label>
+                        <input type="text" id="evento-local" name="evento-local" placeholder="Sala Principal" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="evento-descricao">Descrição:</label>
+                        <textarea name="evento-descricao" id="evento-descricao" rows="4" placeholder="Detalhes do evento..." required></textarea>
+                    </div>
+                    <button class="admin-button" type="submit">Salvar</button>
+                </form>
+            </section>
+
+            <section class="secao" id="admin-avisos">
+                <h2>Publicar Avisos</h2>
+                <form id="form-aviso">
+                    <div class="form-grupo">
+                        <label for="aviso-texto">Texto do Aviso:</label>
+                        <textarea name="aviso-texto" id="aviso-texto" rows="6" placeholder="Escreva o aviso aqui" required></textarea>
+                    </div>
+                    <button class="admin-button" type="submit">Publicar Aviso</button>
+                </form>
+            </section>
+        </main>
+    </div>
+        <footer class="rodape">
+            <p>&copy; 2025 Chopin Conservatory - Todos os direiros reservados - admin</p>
+        </footer>
+
+    <script src="/Periodo2/ProjetoFinal/scripts/home.js"></script>
+</body>
+</html>

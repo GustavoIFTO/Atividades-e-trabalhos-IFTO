@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    width: 800px;
+    height: 550px;
+    background-color: #1A233A;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.imagem-lateral {
+    flex: 1;
+}
+
+.imagem-lateral img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distocer */
+}
+
+.tela-login {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.logo-login {
+    width: 260px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.inputs-login {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #3D4047;
+    color: #fff;
+    font-size: 16px;
+    transition: border-color 0,3s ease;
+}
+
+.inputs-login:focus {
+    outline: none;
+    border-color: #C8A96C;
+}
+
+.button-css {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: #C8A96C;
+    color: #1A233A;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.button-css:hover {
+    background-color: #e0c286;;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.inputs-login {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+p.inputs-login {
+    color: #C8A96C;
+}
+
+p.inputs-login a:hover {
+    color: #e0c286;
+}
