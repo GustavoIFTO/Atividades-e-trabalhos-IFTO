@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         }
 
         else if (email === 'admin@gmail.com' && senha == '321'){
-            window.location = '/Periodo2/ProjetoFinal/paginas/admin.html'
+            window.location = 'admin.html'
         }
 
         else {
